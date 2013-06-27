@@ -15,7 +15,22 @@ type BankCOMM struct {
 	*Fetcher
 }
 
-func (this *BankCOMM) GenerateURLs() (urls []string, err error) {
+func (this *BankCOMM) ParseUrls(body string) (urls []string, err error) {
+    node, err := html.Parse(strings.NewReader(body))
+    doc := goquery.NewDocumentFromNode(node)
+
+    urls = make([]string, 0, 20)
+    doc.Find("div.ml-pic>a").Each(func(i int, s *goquery.Selection) {
+        attr, exists := s.Attr("href")
+        if exists {
+            url := "http://creditcard.bankcomm.com/bcms/merc" + attr
+            urls = append(urls, url)
+        }
+    })
+    return urls, nil
+}
+
+func (this *BankCOMM) FetchData() (body string, err error) {
 	values := make(url.Values, 10)
 	values.Set("cityId", "2c92de8f2ee5d079012ee5d50dda0003")
 	values.Set("cityName", "上海")
@@ -28,24 +43,13 @@ func (this *BankCOMM) GenerateURLs() (urls []string, err error) {
 	values.Set("orderBy", "0")
 	values.Set("isPage", "true")
 
-	body, err := this.FetchTextByPost("http://creditcard.bankcomm.com/bcms/front/merchant/ajax/search.do", values)
+	body, err = this.FetchTextByPost("http://creditcard.bankcomm.com/bcms/front/merchant/ajax/search.do", values)
 
 	if err != nil {
-		return nil, err
+		return "", err
 	}
 
-	//return body, err
-    node, err := html.Parse(strings.NewReader(body))
-    doc := goquery.NewDocumentFromNode(node)
-
-    urls = make([]string, 20)
-    doc.Find("div.ml-pic>a[target=_blank]").Each(func(i int, s *goquery.Selection) {
-        attr, exists := s.Attr("href")
-        if exists {
-            urls = append(urls, "http://creditcard.bankcomm.com/bcms/info1/" + attr)
-        }
-    })
-    return urls, nil
+	return body, err
 }
 
 func (this *BankCOMM) ClawerList() (events []ds.Event, err error) {

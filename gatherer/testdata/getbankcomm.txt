@@ -1,0 +1,72 @@
+	<script language="JavaScript">
+		$("#cursort").html("2034");
+	</script>		
+		<!-- 图文 -->
+		<div class="ml-item">
+			<div class="ml-pic"><a href="/bcms/merc2/75024.htm" ><img src="http://creditcard.bankcomm.com/resource/cc_bankcomm_com/upload/merchant/image/2013_1/3_11/上海_吴记麻辣火锅静安店_M_3634910338ec7f3201392855f06a561c.jpg" alt="吴记麻辣火锅静安店" width="158" height="118"/><strong>吴记麻辣火锅静安店</strong></a></div>
+			<div class="ml-name"><label>商户名称：</label><strong><a href="/bcms/merc2/75024.htm">吴记麻辣火锅静安店</strong></a></div>
+			<div class="ml-offers"><label>支持卡类：</label>
+					<span class="gold-card">太平洋信用卡</span><em></em>
+			</div>
+			<div class="ml-end"><label>优惠截止：</label>2013-09-30</div>
+			<div class="ml-end"><label>优惠细则：</label>刷交通银行信用卡享9折优惠(锅底、酒水、海鲜除外，不与其他优惠同享)</div>
+			<div class="ml-grade"><label>综合评分：</label><span class="g6.5">6.5分</span></div>		
+		</div>
+		<!-- 图文 -->
+		<div class="ml-item">
+			<div class="ml-pic"><a href="/bcms/merc2/75006.htm" ><img src="http://creditcard.bankcomm.com/resource/cc_bankcomm_com/upload/merchant/image/2012_4/12_4/上海_藏乐汤坊仲盛店_M_363491033934e169013957baec6974db.jpg" alt="藏乐汤坊仲盛店" width="158" height="118"/><strong>藏乐汤坊仲盛店</strong></a></div>
+			<div class="ml-name"><label>商户名称：</label><strong><a href="/bcms/merc2/75006.htm">藏乐汤坊仲盛店</strong></a></div>
+			<div class="ml-offers"><label>支持卡类：</label>
+					<span class="gold-card">太平洋信用卡</span><em></em>
+			</div>
+			<div class="ml-end"><label>优惠截止：</label>2013-09-30</div>
+			<div class="ml-end"><label>优惠细则：</label>刷卡消费可享受9折优惠(酒水,河海鲜,套餐,特价菜除外,优惠不同享)</div>
+			<div class="ml-grade"><label>综合评分：</label><span class="g8">8分</span></div>		
+		</div>
+		<!-- 图文 -->
+		<div class="ml-item">
+			<div class="ml-pic"><a href="/bcms/merc2/78500.htm" ><img src="http://creditcard.bankcomm.com/resource/cc_bankcomm_com/upload/merchant/image/2013_1/3_11/上海_安薇塔国金一店_M_ff8080813b4133cb013b4133f9780009.jpg" alt="安薇塔国金一店" width="158" height="118"/><strong>安薇塔国金一店</strong></a></div>
+			<div class="ml-name"><label>商户名称：</label><strong><a href="/bcms/merc2/78500.htm">安薇塔国金一店</strong></a></div>
+			<div class="ml-offers"><label>支持卡类：</label>
+					<span class="gold-card">太平洋信用卡</span><em></em>
+			</div>
+			<div class="ml-end"><label>优惠截止：</label>2013-10-31</div>
+			<div class="ml-end"><label>优惠细则：</label>刷卡消费满300元赠送价值78元随身罐一个(不与店内其他优惠同享)</div>
+			<div class="ml-grade"><label>综合评分：</label><span class="g8">8分</span></div>		
+		</div>
+		<!-- 图文 -->
+		<div class="ml-item">
+			<div class="ml-pic"><a href="/bcms/merc1/84875.htm" ><img src="http://creditcard.bankcomm.com/resource/cc_bankcomm_com/upload/merchant/image/2013_2/6_24/上海_上海大众汽车马陆宝安公路店_M_ff8080813e39ce38013e39cea19e0078.jpg" alt="上海大众汽车马陆宝安公路店" width="158" height="118"/><strong>上海大众汽车马陆宝安...</strong></a></div>
+			<div class="ml-name"><label>商户名称：</label><strong><a href="/bcms/merc1/84875.htm">上海大众汽车马陆宝安...</strong></a></div>
+			<div class="ml-offers"><label>支持卡类：</label>
+					<span class="norm-card">太平洋卡</span><em></em>
+			</div>
+			<div class="ml-end"><label>优惠截止：</label>2014-04-30</div>
+			<div class="ml-end"><label>优惠细则：</label>刷卡消费可享受全年维修,保养工时费8.5折优惠(事故车维修工时费除外,不与其他优惠同享)</div>
+			<div class="ml-grade"><label>综合评分：</label><span class="g10">10分</span></div>		
+		</div>
+		<!-- 图文 -->
+		<div class="ml-item">
+			<div class="ml-pic"><a href="/bcms/merc2/84760.htm" ><img src="http://creditcard.bankcomm.com/resource/cc_bankcomm_com/upload/merchant/image/2013_2/6_17/上海_金辣椒火锅_M_ff8080813e01fad6013e01fb1e940010.jpg" alt="金辣椒火锅" width="158" height="118"/><strong>金辣椒火锅</strong></a></div>
+			<div class="ml-name"><label>商户名称：</label><strong><a href="/bcms/merc2/84760.htm">金辣椒火锅</strong></a></div>
+			<div class="ml-offers"><label>支持卡类：</label>
+					<span class="norm-card">太平洋卡</span><em></em>
+			</div>
+			<div class="ml-end"><label>优惠截止：</label>2014-04-30</div>
+			<div class="ml-end"><label>优惠细则：</label>刷卡消费可享受8.8折优惠(酒水,海鲜,锅底,外带酒水及食品除外,不与其他优惠同享)</div>
+			<div class="ml-grade"><label>综合评分：</label><span class="g8">8分</span></div>		
+		</div>
+<div class="pagebar" style="text-align:left;padding:1px">共407页2034条记录，当前第1页&nbsp;&nbsp;
+	<span class="prev"><a href="JavaScript:void(0);" disabled>上一页</a></span>
+						
+							<a href="JavaScript:void(0);" class='cur' onclick="doSearch({pageNo:1,pageSize:5});">1</a>
+							<a href="JavaScript:void(0);"  onclick="doSearch({pageNo:2,pageSize:5});">2</a>
+							<a href="JavaScript:void(0);"  onclick="doSearch({pageNo:3,pageSize:5});">3</a>
+							<a href="JavaScript:void(0);"  onclick="doSearch({pageNo:4,pageSize:5});">4</a>
+							<a href="JavaScript:void(0);"  onclick="doSearch({pageNo:5,pageSize:5});">5</a>
+	<span class="next"><a href="JavaScript:void(0);" onclick="doSearch({pageNo:407,pageNo:2,pageSize:5})">下一页</a></span>
+	跳至<input name="goto" size="4" value="1" id="goto" >页<button name="go" onclick="gotoPage();">go</button>
+</div>
+	
+	<!-- <div id="go2top"><span><a href="#top">TOP</a></span></div>	 -->
+
